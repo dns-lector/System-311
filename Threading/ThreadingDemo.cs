@@ -15,7 +15,6 @@ namespace System_311.Threading
             thread.Start();
             thread.Join();   // очікування завершення потоку - блокується потік, що 
                              // викликає операцію (батьківській потік)
-
             Console.WriteLine("Threading Demo");
             int N = 12;
             sum = 100.0;
